@@ -1,0 +1,35 @@
+.plansscreen_plan {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  opacity: 0.8;
+}
+
+.plansscreen_plan:hover {
+  opacity: 1;
+}
+
+.plansscreen_plan button {
+  padding: 7.5px 15px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.plansscreen_plan_disabled button {
+  background-color: #aaa !important;
+}
+
+.plansscreen_renewaldate {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.plansscreen_info h5 {
+  font-size: 1rem;
+}

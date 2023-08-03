@@ -1,0 +1,23 @@
+.toosmallscreen_body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.25rem;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #e50914;
+  font-weight: 700;
+  background-color: black;
+}
+
+.sad_face {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.sad_face img {
+  width: 20%;
+}
